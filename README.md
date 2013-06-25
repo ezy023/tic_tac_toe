@@ -1,11 +1,12 @@
-This is the standard Dev Bootcamp Sinatra file with some extras. Those include:
+# Sinatra - Tic-Tac-Toe
 
-  - a User model pre-populated with relevant Bcrypt methods 
-  - a rake db:yolo which creates, migrates, and seeds your database
-  - a rake db:fuckit which drops, creates, migrates and seeds your database
-  - a rake db:console which puts you into a psql session
-  - a rake console which puts you into an irb session loaded with access to the models
-  - faker gem already required
-  - carrierwave gem/environment present but commented out
-  - twitter bootstrap css min files linked in the layout 
-    - the full, unminified, files are available to browse through in the public/bootstrap directory
+###Dev Bootcamp Week 6 Team Project
+
+
+This is a 2 player Tic-Tac-Toe game that we built during week 6 of Dev Bootcamp. It allows two players to play one tic-tac-toe against each other from different computers.
+
+
+The coolest aspect about this app was learning how to use the Javascript to create a multiplayer experience. What we did was set that JS up so that when it was one player's turn we were pinging the server on a regular interval checking to see if a turn was taken. When the turn was taken we switched control to the second player, and started pinging the server for the first play. 
+
+
+This challenge was one of the early introductions to using more advanced Javascript techniques and learn more about OOJS.
